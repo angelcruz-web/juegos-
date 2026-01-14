@@ -1,0 +1,97 @@
+body {
+    background-image: url("4.jpg");
+    background-size: cover;      /* Hace que la imagen cubra la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+    margin: 1px;
+    color: rgb(243, 240, 240);
+    font-family: Arial, sans-serif;
+}
+
+
+/* HEADER */
+header {
+    background: #111;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 130px;
+    margin-right: 20px;
+}
+
+/* NAV */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    padding: 12px 20px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background: #00aaff;
+}
+
+/* SUBMENÚ */
+nav ul ul {
+    display: none;
+    position: absolute;
+    background: #adc2cc;
+    width: 180px;
+    top: 100%;
+    left: 0;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+/* SUB-SUBMENÚ */
+nav ul ul ul {
+    left: 180px;
+    top: 0;
+}
+
+/* HOME */
+.home {
+    padding: 60px;
+    text-align: center;
+}
+
+.resaltar {
+    color: #df1919;
+}
+
+/* SECCIONES */
+.contenido {
+    padding: 40px;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
+p{
+    text-align: center;
+   
+}
+h1{
+    text-align: center;
+}
+
